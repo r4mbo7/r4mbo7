@@ -1,0 +1,52 @@
+name: Update blog posts in README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch blog posts and update README
+        run: |
+          # Fetch the latest posts from the website
+          POSTS_JSON=$(curl -sf "https://cdelaroche.fr/blog/posts.json") || {
+            echo "Failed to fetch posts.json"
+            exit 1
+          }
+
+          # Generate the blog post list (top 5)
+          BLOG_LIST=$(echo "$POSTS_JSON" | python3 -c "
+          import json, sys
+          posts = json.load(sys.stdin)[:5]
+          for p in posts:
+              title = p['title']
+              slug = p['slug']
+              date = p['date']
+              print(f'- [{title}](https://cdelaroche.fr/blog/{slug}) - {date}')
+          ")
+
+          # Replace content between markers in README
+          awk -v posts="$BLOG_LIST" '
+          /<!-- BLOG-POST-LIST:START -->/ { print; print posts; skip=1; next }
+          /<!-- BLOG-POST-LIST:END -->/ { skip=0 }
+          skip { next }
+          { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || {
+            git add README.md
+            git commit -m "Update blog posts in README"
+            git push
+          }
