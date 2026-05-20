@@ -50,11 +50,11 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 ### Latest blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Designing and Implementing Multiagent Systems](https://cdelaroche.fr/blog/notes-about-agents-systems) - 2026-05-19
 - [TrocOS — A time banking platform for entrepreneurial communities](https://cdelaroche.fr/blog/trocos-time-banking-for-communities) - 2026-03-30
 - [Condensr & SummarZ — Summarize books with AI](https://cdelaroche.fr/blog/condensr-and-summarz-ai-book-summarization) - 2026-03-09
 - [Deploy Pingouin with Kamal 2 — a monorepo with two services](https://cdelaroche.fr/blog/deploy-pingouin-with-kamal-2) - 2026-02-28
 - [Pingouin - A simple self-hosted uptime monitoring stack](https://cdelaroche.fr/blog/pingouin-simple-uptime-monitoring) - 2026-02-28
-- [Deploy self-hosted n8n with Kamal 2](https://cdelaroche.fr/blog/deploy-self-hosted-n8n-with-kamal-2) - 2026-02-11
 <!-- BLOG-POST-LIST:END -->
 
 More on [cdelaroche.fr/blog](https://cdelaroche.fr/blog)
