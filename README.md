@@ -50,11 +50,11 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 ### Latest blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The era of self-hosted web applications](https://cdelaroche.fr/blog/era-of-self-hosted-web-apps) - 2026-06-04
 - [CV.ai — AI-powered resumes tailored to each job offer](https://cdelaroche.fr/blog/cv-ai-tailored-resumes-with-ai) - 2026-06-02
 - [Nosheet — A focused project tracker for elected officials](https://cdelaroche.fr/blog/nosheet-tracker-for-elected-officials) - 2026-05-28
 - [Designing and Implementing Multiagent Systems](https://cdelaroche.fr/blog/notes-about-agents-systems) - 2026-05-19
 - [TrocOS — A time banking platform for entrepreneurial communities](https://cdelaroche.fr/blog/trocos-time-banking-for-communities) - 2026-03-30
-- [Condensr & SummarZ — Summarize books with AI](https://cdelaroche.fr/blog/condensr-and-summarz-ai-book-summarization) - 2026-03-09
 <!-- BLOG-POST-LIST:END -->
 
 More on [cdelaroche.fr/blog](https://cdelaroche.fr/blog)
