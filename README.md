@@ -11,6 +11,7 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 ### Things I code with
 
 <p>
+  <img alt="Claude Code" src="https://img.shields.io/badge/-Claude%20Code-191919?style=flat-square&logo=anthropic&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img alt="Ruby on Rails" src="https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?style=flat-square&logo=rubyonrails&logoColor=white" />
   <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white" />
@@ -37,6 +38,8 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 
 | Project | Description |
 |---------|-------------|
+| [CV.ai](https://gitlab.com/cdlr75/cv.ai) | AI-powered resume & cover letter generator |
+| [Nosheet](https://gitlab.com/cdlr75/nosheet) | Local-first project tracker for elected officials |
 | [TrocOS](https://gitlab.com/cdlr75/trocos) | Time banking platform for entrepreneurial communities |
 | [Condensr](https://gitlab.com/cdlr75/condensr) | AI-powered book summarization library |
 | [SummarZ](https://gitlab.com/cdlr75/summarz) | Self-hosted web app for book summarization |
