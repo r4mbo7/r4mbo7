@@ -38,6 +38,8 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 
 | Project | Description |
 |---------|-------------|
+| [NoTypo](https://gitlab.com/cdlr75/notypo) | Self-hosted French grammar corrector powered by Mistral AI |
+| [Chef-lieu](https://gitlab.com/cdlr75/chef-lieu) | Interactive quiz to learn French department prefectures |
 | [CV.ai](https://gitlab.com/cdlr75/cv.ai) | AI-powered resume & cover letter generator |
 | [Nosheet](https://gitlab.com/cdlr75/nosheet) | Local-first project tracker for elected officials |
 | [TrocOS](https://gitlab.com/cdlr75/trocos) | Time banking platform for entrepreneurial communities |
