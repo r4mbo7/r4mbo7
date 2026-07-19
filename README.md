@@ -55,11 +55,11 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 ### Latest blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Élan — suivre ses habitudes, sans en oublier une](https://cdelaroche.fr/blog/elan-suivi-habitudes-sans-en-oublier-une) - 2026-07-18
 - [Wealthfolio, ses addons, et un DCA crypto qui bat le lump-sum](https://cdelaroche.fr/blog/wealthfolio-addons-investisseurs-francais) - 2026-07-05
 - [NoTypo — French grammar correction with Mistral AI](https://cdelaroche.fr/blog/notypo-french-grammar-correction) - 2026-06-15
 - [Deploy anything with Kamal — a deploy factory](https://cdelaroche.fr/blog/deploy-anything-with-kamal-deploy-factory) - 2026-06-06
 - [The era of self-hosted web applications](https://cdelaroche.fr/blog/era-of-self-hosted-web-apps) - 2026-06-04
-- [CV.ai — AI-powered resumes tailored to each job offer](https://cdelaroche.fr/blog/cv-ai-tailored-resumes-with-ai) - 2026-06-02
 <!-- BLOG-POST-LIST:END -->
 
 More on [cdelaroche.fr/blog](https://cdelaroche.fr/blog)
