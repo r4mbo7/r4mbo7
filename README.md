@@ -38,6 +38,7 @@ Check out my website: [cdelaroche.fr](https://cdelaroche.fr)
 
 | Project | Description |
 |---------|-------------|
+| [Élan](https://gitlab.com/cdlr75/elan) | Self-hosted habit tracker that surfaces your most neglected habit first |
 | [NoTypo](https://gitlab.com/cdlr75/notypo) | Self-hosted French grammar corrector powered by Mistral AI |
 | [Chef-lieu](https://gitlab.com/cdlr75/chef-lieu) | Interactive quiz to learn French department prefectures |
 | [CV.ai](https://gitlab.com/cdlr75/cv.ai) | AI-powered resume & cover letter generator |
